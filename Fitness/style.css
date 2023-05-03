@@ -254,7 +254,120 @@
         margin-top: -2rem;
     }
 }
+/*! Fashion end */
 
+/*! Shop start */
+.shop .hdr2_section h2{
+    font-size: 2.7rem;
+    font-weight: 520;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 6rem;
+}
+
+.shop .shop_img1{
+    display: flex;
+}
+
+.shop .shop_img1 .shop_section1 img,
+.shop .shop_img1 .shop_section2 img,
+.shop .shop_img1 .shop_section3 img{
+    width: 335px;
+    height: 335px;
+    cursor: pointer;
+    margin-left: 8.2rem;
+    transition: .8s;
+}
+.shop .shop_img1 .shop_section1 img:hover,
+.shop .shop_img1 .shop_section2 img:hover,
+.shop .shop_img1 .shop_section3 img:hover{
+    transform: scale(1.1);
+}
+.shop .shop_img1 .shop_section1 p,
+.shop .shop_img1 .shop_section2 p,
+.shop .shop_img1 .shop_section3 p{
+    /* margin-left:13rem; */
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+.shop .shop_img1 .shop_section1 span,
+.shop .shop_img1 .shop_section2 span,
+.shop .shop_img1 .shop_section3 span{
+    margin-left: 15.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.shop .shop_img2{
+    display: flex;
+}
+
+.shop .shop_img2 .shop_section4 img,
+.shop .shop_img2 .shop_section5 img,
+.shop .shop_img2 .shop_section6 img{
+    width: 335px;
+    height: 335px;
+    cursor: pointer;
+    margin-left: 8.2rem;
+    margin-top: 2rem;
+    transition: .8s;
+}
+.shop .shop_img2 .shop_section4 img:hover,
+.shop .shop_img2 .shop_section5 img:hover,
+.shop .shop_img2 .shop_section6 img:hover{
+    transform: scale(1.1);
+}
+.shop .shop_img2 .shop_section4 p,
+.shop .shop_img2 .shop_section5 p,
+.shop .shop_img2 .shop_section6 p{
+
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+.shop .shop_img2 .shop_section4 span,
+.shop .shop_img2 .shop_section5 span,
+.shop .shop_img2 .shop_section6 span{
+    margin-left: 15.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media(max-width: 750px){
+    .shop .shop_img1,
+    .shop .shop_img2{
+        display: grid;
+    }
+    .shop .shop_img1 .shop_section1 img,
+    .shop .shop_img1 .shop_section2 img,
+    .shop .shop_img1 .shop_section3 img,
+    .shop .shop_img2 .shop_section4 img,
+    .shop .shop_img2 .shop_section5 img,
+    .shop .shop_img2 .shop_section6 img{
+        margin-left: 5rem;
+    }
+    .shop .shop_img1 .shop_section1 p,
+    .shop .shop_img1 .shop_section2 p,
+    .shop .shop_img1 .shop_section3 p,
+    .shop .shop_img2 .shop_section4 p,
+    .shop .shop_img2 .shop_section5 p,
+    .shop .shop_img2 .shop_section6 p{
+        margin-left: 0.5rem;
+    }
+    .shop .shop_img1 .shop_section1 span,
+    .shop .shop_img1 .shop_section2 span,
+    .shop .shop_img1 .shop_section3 span,
+    .shop .shop_img2 .shop_section4 span,
+    .shop .shop_img2 .shop_section5 span,
+    .shop .shop_img2 .shop_section6 span{
+        margin-left: 12.6rem;
+}
+}
+/*! Shop end */
 
 
 
