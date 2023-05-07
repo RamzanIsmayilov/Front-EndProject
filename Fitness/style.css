@@ -369,6 +369,302 @@
 }
 /*! Shop end */
 
+/*! Video start */
+.video_sctn{
+    min-height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/images-10.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.video_sctn .video video{
+    width: 650px;
+    height: 450px;
+    border-radius: 2rem;
+    margin-left: 11rem;
+    margin-top: 5rem;
+}
+
+.wrt_btn {
+    padding-left: 8rem;
+}
+
+.wrt_btn .wrt h2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.24;
+    color: #fafafa;
+    padding-bottom: 3rem;
+}
+
+.wrt_btn .btn button{
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    padding: 0.5rem 1.1rem;
+    color: #1a1a1a;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: .6s;
+}
+.wrt_btn .btn button:hover{
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+@media(max-width: 750px){
+    .video_sctn .video video{
+        width: 450px;
+        height: 150px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .wrt_btn .wrt h2{
+        display: none;
+    }
+    .wrt_btn .btn button{
+        display: none;
+    }
+}
+/*! Video end */
+
+/*! News start */
+.news{
+    max-width: 1200px;
+}
+
+.news .news_hdng{
+    margin-top: 5rem;
+    margin-bottom: 60px;
+}
+
+.news .news_hdng h1{
+    font-size: 2.5rem;
+    line-height: 1.24;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 15rem;
+}
+.news .news_imgs{
+    display: flex;
+    gap: 2rem;
+}
+
+.news .news_imgs .news1{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.news .news_imgs .news1 img{
+    width: 330px;
+    height: 220px;
+    margin-left: 13rem;
+    transition: .8s;
+}
+.news .news_imgs .news1 img:hover{
+    transform: scale(1.1);
+}
+.news .news_imgs .news1 p{
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+.news .news_imgs .news1 h2{
+    font-weight: 520;
+    margin-top: 0.5rem;
+    margin-left: 13rem;
+}
+.news .news_imgs .news2{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.news .news_imgs .news2 img{
+    width: 330px;
+    height: 220px;
+    transition: .8s;
+}
+.news .news_imgs .news2 img:hover{
+    transform: scale(1.1);
+}
+.news .news_imgs .news2 p{
+    margin-top: 2rem;
+}
+.news .news_imgs .news2 h2{
+    font-weight: 520;
+    margin-top: 0.5rem;
+}
+.news .news_imgs .news3{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.news .news_imgs .news3 img{
+    width: 330px;
+    height: 220px;
+    transition: .8s;
+}
+.news .news_imgs .news3 img:hover{
+    transform: scale(1.1);
+
+}
+.news .news_imgs .news3 p{
+    margin-top: 2rem;
+}
+.news .news_imgs .news3 h2{
+    font-weight: 520;
+    margin-top: 0.5rem;
+}
+
+@media(max-width: 750px){
+    .news .news_imgs{
+        display: grid;
+        gap: 2rem;
+    }
+    .news .news_hdng h1{
+        margin-left: -1.1rem;
+    }
+    .news .news_imgs .news1{
+        margin-left: -7.7rem;
+    }
+    .news .news_imgs .news2{
+        margin-left: 5.2rem;
+    }
+    .news .news_imgs .news3{
+        margin-left: 5.2rem;
+    }
+}
+/*! News end */
+
+/*! Instagram start */
+.instagram .insta_hdng h1{
+    font-size: 3.5rem;
+    font-weight: 510;
+    line-height: 1.1;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.instagram .insta_images{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+.instagram .insta_images .pic1 img{
+    display: flex;
+    width: 760px;
+    height: 510px;
+    margin-left: 0.5rem;
+}
+.instagram .insta_images .pic2 .pic21 {
+    display: flex;
+    width: 370px;
+    height: 250px;
+    margin-left: 0.1rem;
+}
+.instagram .insta_images .pic2 .pic21 .img-1 img { 
+    width: 370px;
+    height: 250px;
+    margin-left: 0.1rem;
+}
+.instagram .insta_images .pic2 .pic21 .img-2 img { 
+    width: 370px;
+    height: 250px;
+    margin-left: 0.1rem;
+}
+.instagram .insta_images .pic2 .pic22 {
+    display: flex;
+    width: 370px;
+    height: 250px;
+    margin-left: 0.1rem;
+}
+.instagram .insta_images .pic2 .pic22 .img-3 img{
+    display: flex;
+    width: 370px;
+    height: 250px;
+    margin-top: 0.4rem;
+    margin-left: 0.1rem;
+}
+.instagram .insta_images .pic2 .pic22 .img-4 img{
+    display: flex;
+    width: 370px;
+    height: 250px;
+    margin-top: 0.4rem;
+    margin-left: 0.1rem;
+}
+
+@media(max-width:750px){
+    .instagram .insta_hdng h1{
+        font-size: 2.3rem;
+    }
+    .instagram .insta_images .pic1 img{
+        display: flex;
+        width: 477px;
+        height: 300px;
+        margin-left: 0.2rem;
+    }
+    .instagram .insta_images .pic2 .pic21 {
+        display: grid;
+    }
+    .instagram .insta_images .pic2 .pic22 {
+        margin-top: 23rem;
+        display: grid;
+    }
+    .instagram .insta_images .pic2 .pic21 .img-1 img { 
+        width: 477px;
+        height: 300px;
+        margin-left: 0.1rem;
+        margin-top: 0.5rem;
+    }
+    .instagram .insta_images .pic2 .pic21 .img-2 img { 
+        width: 477px;
+        height: 300px;
+        margin-left: 0.1rem;
+        margin-top: 0.5rem;
+    }
+    .instagram .insta_images .pic2 .pic22 .img-3 img { 
+        width: 477px;
+        height: 300px;
+        margin-left: 0.1rem;
+    }
+    .instagram .insta_images .pic2 .pic22 .img-4 img { 
+        width: 477px;
+        height: 300px;
+        margin-left: 0.1rem;
+    }
+}
+/*! Instagram end */
+
+/*! End section */
+.end h3{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-weight: 500;
+}
+.end .h3{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.end .h3 span{
+    color: #0962ea;
+}
+
+@media(max-width:750px){
+    .end h3{
+        margin-top: 25rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* ? Eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnndddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+
 
 
 
